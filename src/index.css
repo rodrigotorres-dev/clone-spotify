@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+    --bg-color: #000000;
+    --bg-color2: #121212;
+    --bg-color3: #1F1F1F;
+    --text-color: #FFFFFF;
+    --linear: linear-gradient(70deg,rgba(175, 40, 150, 1) 0%, rgba(80, 155, 245, 1) 100%);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 10px;
+}
+
+a {
+    color: #B3B3B3;
+    font: normal;
+    font-size: 11px;
+    gap: 2px
+}
